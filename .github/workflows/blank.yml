@@ -15,7 +15,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
       - name: aaa
-        uses: dbgso/githubactions-asciidoc@tmp
+        uses: dbgso/githubactions-asciidoc@main
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             asciidoc_file_path: "./index.adoc"
