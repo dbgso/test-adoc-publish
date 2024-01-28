@@ -1,0 +1,18 @@
+= hoge
+
+== 図形テスト
+
+[d2, images-1]
+....
+local.dev-machine ->  Cloud.API
+....
+
+
+== シーケンス図
+[plantuml, seq]
+....
+a -> b: Hello
+activate b
+a <-- b: Hi
+deactivate b
+....
